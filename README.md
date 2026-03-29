@@ -3,3 +3,12 @@
 
 ### Tools: Julia (JuMP), HiGHS, Mosek
 ### Analysis: Mixed-Integer Linear Programming, Constraint Modelling, Optimisation, Slackness Analysis, Sensitivity Analysis
+#### How to Run
+
+1. Download .ipynb file
+2. Install Julia (https://julialang.org)
+3. Install required packages:
+   using Pkg
+   Pkg.add(["JuMP", "HiGHS"])
+
+4. Run in Jupyter notebook.
